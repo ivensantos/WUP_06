@@ -68,6 +68,7 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+The whites seem too be more in favor of capitol punsihment while the blacks anf others are more divided and leaning stronger towards opposition.
 
 
 ### Numerical Descriptive Results
@@ -84,7 +85,7 @@ table2 <- xtabs(~race + cappun, data=mydata)
 rowPerc(table2)
 colPerc(table2)
 ```
-
+The whites are about 60:30 in favor. The blacks are almost 50:50 in the decision. and others are just a little over 50% in favor.
 
 ## Inferential Results
 
