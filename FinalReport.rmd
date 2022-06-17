@@ -103,11 +103,15 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
+The p-value for the Chi-squared test was 0.bunch of 0's 1 this quite small wo we reject the null hypothesis.
+
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
- 
+ Again the whites are strongly in favor of capital punishment followed by others also in favor but with a more split crowd. The blacks are the only ones in opposition albeit with a small margin of 26 people.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+the original question was "Is attitude toward capitol punishment independent of race?" Yes, yes it is. in all the tables each race had a consistently different opinion from another. some leaning far to one side while others being split down the middle. With the whites always leaning heavily towards favoring capital punishment. The Blacks being constantly split down the middle, and Others flip flopping between majority favor and majority opposition. 
